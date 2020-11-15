@@ -2,14 +2,14 @@ window.addEventListener('DOMContentLoaded', () => {
     'use strict';
 
     const slider = document.querySelector('.offer__slider'),
-            sliderWrap = slider.querySelector('.offer__slider-wrapper'),
-            sliderField = slider.querySelector('.offer__slider-inner'),
-            width = window.getComputedStyle(sliderWrap).width,
-            slide = slider.querySelectorAll('.offer__slide'),
-            slideCurrent = slider.querySelector('#current'),
-            slideTotal = slider.querySelector('#total'),
-            slidePrev = slider.querySelector('.offer__slider-prev'),
-            slideNext = slider.querySelector('.offer__slider-next');
+          sliderWrap = slider.querySelector('.offer__slider-wrapper'),
+          sliderField = slider.querySelector('.offer__slider-inner'),
+          width = window.getComputedStyle(sliderWrap).width,
+          slide = slider.querySelectorAll('.offer__slide'),
+          slideCurrent = slider.querySelector('#current'),
+          slideTotal = slider.querySelector('#total'),
+          slidePrev = slider.querySelector('.offer__slider-prev'),
+          slideNext = slider.querySelector('.offer__slider-next');
 
     let current = 1,
         offset = 0;
